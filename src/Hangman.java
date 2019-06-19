@@ -18,7 +18,7 @@ public class Hangman {
         //Selected random word from array of words
         String word = words[(int) (Math.random() * words.length)];
         //***For testing purposes. Delete later***
-        System.out.println(word);
+//        System.out.println(word);
 
         //Splits the selected word into an array of characters
         String[] breakDown = word.split("");
